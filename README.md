@@ -1,4 +1,4 @@
-#### CodeChallenge: Eventbrite Mini
+#### CodeChallenge
 
 Written in **Javascript**: 
 * **Event** - An event has a name, date, and attendees.
