@@ -1,0 +1,22 @@
+{
+  "name": "CodeChallenge",
+  "version": "1.0.0",
+  "description": "Please spend no more than **1 hour** to complete the following challenge.",
+  "main": "solution.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/red-starter/CodeChallenge.git"
+  },
+  "author": "Mike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/red-starter/CodeChallenge/issues"
+  },
+  "homepage": "https://github.com/red-starter/CodeChallenge",
+  "dependencies": {
+    "chai": "^3.4.1"
+  }
+}
