@@ -37,7 +37,7 @@ function Invite(person,event){
 
 Invite.prototype.send = function(){
 	// make sure we are passing in the proper parameters
-	if (!(this in this.person.invites)){
+	if (!(this.event.name in this.person.invites)){
 		this.person.invites[this.event.name] = this.event;
 	} else {
 		console.error('already sent the invite');

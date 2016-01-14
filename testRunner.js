@@ -35,9 +35,14 @@ expect(party.getAttendees()[0]).to.equal('Bob Bobby')
 // the invite was removed from Bobs inbox of invites
 expect(Bob.getInvites()).to.have.length(0)
 
-// send out another invite
+// send out another invites
 var inviteJoeToParty = new Invite(Joe,party)
 inviteJoeToParty.send()
+inviteJoeToParty.send()
+// we can't send more than one invite to an event
+expect(Joe.getInvites()).to.have.length(1)
+Joe.acceptInvite('Birthday')
+// we can't go to an event more than one time
 Joe.acceptInvite('Birthday')
 expect(party.getAttendees()).to.have.length(2)
 
